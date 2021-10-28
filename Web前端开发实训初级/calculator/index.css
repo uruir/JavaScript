@@ -1,0 +1,40 @@
+.calculator {
+    width: 406px;
+    border: solid 1px white;
+    background-color: #ffefd5;
+    margin: 50px;
+    padding: 20px;
+}
+
+.xianshi {
+    width: 362px;
+    height: 50px;
+    margin: 0 0 20px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: right;
+    background: white;
+}
+
+.numbers {
+    width: 300px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+input[type=button] {
+    border: solid 1px white;
+    width: 100px;
+    height: 80px;
+    background: grey;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+
+.operators {
+    width: 100px;
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
